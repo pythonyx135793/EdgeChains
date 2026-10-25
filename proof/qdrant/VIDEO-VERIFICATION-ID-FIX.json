@@ -1,0 +1,13 @@
+{
+  "file": "qdrant-demo-id-fix.webm",
+  "sha256": "dadd3527d3a86da2e01b989c69ed40c137528451157812fa81b8436a82732776",
+  "decode_tool": "existing Playwright ffmpeg1013",
+  "decode_exit": 0,
+  "decoded_frames": 173,
+  "inspected_frames": [
+    90,
+    173
+  ],
+  "final_frame": "Actual matching documents, payload update, count2 and collection cleanup visible",
+  "prior_decode_attempt": "null muxer unavailable; image2 full decode succeeded"
+}

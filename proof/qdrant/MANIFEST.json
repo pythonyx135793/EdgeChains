@@ -1,0 +1,92 @@
+{
+  "source": "2900660409b5c1e5098528d14d07a4e2966abacb",
+  "tree": "8ee641dbcbf791f5b85f67c2abb18a08813ce0dc",
+  "base": "0467bbc0fa6971e0f5e542648ebff167f8053586",
+  "runtime": "Windows; Node24.19.0; Qdrant1.20.0 official Windows release; Chrome155.0.8059.86 headless for demo",
+  "checks": {
+    "HTTP": 64,
+    "actual_Qdrant": 14,
+    "new_failures": 0,
+    "skips": 0,
+    "build_exit": 0,
+    "test_types_exit": 0,
+    "format_exit": 0,
+    "full_suite_exit": 1,
+    "existing_failed_assertions": 3,
+    "existing_failed_files": 15
+  },
+  "demo": {
+    "file": "qdrant-demo-id-fix.webm",
+    "source": "2900660409b5c1e5098528d14d07a4e2966abacb",
+    "actual_local_Qdrant": true,
+    "synthetic_vectors": true,
+    "screenshot_visually_inspected": true
+  },
+  "files": [
+    {
+      "path": "qdrant-demo-id-fix.webm",
+      "bytes": 554968,
+      "sha256": "dadd3527d3a86da2e01b989c69ed40c137528451157812fa81b8436a82732776"
+    },
+    {
+      "path": "demo-complete-id-fix.png",
+      "bytes": 53202,
+      "sha256": "70200d7708a998218271bffb80acc7f4362d49878bed7d9458eb7609d2af883d"
+    },
+    {
+      "path": "DEMO-RESULT-id-fix.json",
+      "bytes": 1735,
+      "sha256": "33b11c65509f576c7acbb1db29c7fc46ec62975b578965f4c7148b8755ac7024"
+    },
+    {
+      "path": "SOURCE-MANIFEST-ID-FIX.json",
+      "bytes": 1788,
+      "sha256": "fdd94726f033773a6b7222c8530523440dc6543bd30245983293570c22d3f807"
+    },
+    {
+      "path": "COMMANDS-id-fix.json",
+      "bytes": 470,
+      "sha256": "d6470d8b1270d462923a201999c80534c3df262c43259fad78444c8867c3c1f3"
+    },
+    {
+      "path": "build-id-fix.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "test-types-id-fix.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "format-id-fix.log",
+      "bytes": 66,
+      "sha256": "17aa973d3f004560237d9a95171210b0671deff23d61628eecf7322ff5938f20"
+    },
+    {
+      "path": "full-tests-id-fix.json",
+      "bytes": 35712,
+      "sha256": "d9525dbdf6b6a6cf54adb822acdacd3d2e619d530683c02e20760ad83b299e8d"
+    },
+    {
+      "path": "baseline-tests.json",
+      "bytes": 13471,
+      "sha256": "761df5fd957d6f608867603f0b113c30d1aee1f06f23baa5839b884bab5bf079"
+    },
+    {
+      "path": "BASELINE-COMPARISON.json",
+      "bytes": 2424,
+      "sha256": "c203b044d84e76e75bd1a4e6735014a161a5bd41d4a5030730e4514aa44b2e91"
+    },
+    {
+      "path": "REVIEW-ID-CONTROL.json",
+      "bytes": 1064,
+      "sha256": "e9d395d11f0249daf260b375635918267725a75a9d586cacbc67be47886fd1be"
+    },
+    {
+      "path": "CLEANUP-ID-FIX.json",
+      "bytes": 381,
+      "sha256": "7444ef57dabc360b879314011ff7ea046c6f325ad26f1b5321e4305e5b7ecae8"
+    }
+  ]
+}

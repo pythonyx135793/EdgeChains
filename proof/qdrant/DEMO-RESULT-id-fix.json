@@ -1,0 +1,76 @@
+{
+  "browser": "155.0.8059.86",
+  "origin": "http://127.0.0.1:50619",
+  "actual_headless_browser": true,
+  "actual_local_Qdrant": true,
+  "events": [
+    {
+      "label": "Created collection",
+      "value": {
+        "collection": "edgechains_demo_6e4ad21ef81744f0852c784bfa3f9db8"
+      },
+      "at_utc": "2026-10-25T23:27:01.564Z"
+    },
+    {
+      "label": "Inserted points",
+      "value": {
+        "count": 3
+      },
+      "at_utc": "2026-10-25T23:27:01.618Z"
+    },
+    {
+      "label": "Filtered nearest documents",
+      "value": [
+        {
+          "id": 1,
+          "version": 1,
+          "score": 1,
+          "payload": {
+            "content": "Qdrant stores searchable vectors",
+            "namespace": "docs"
+          }
+        },
+        {
+          "id": 2,
+          "version": 1,
+          "score": 0.9701425,
+          "payload": {
+            "content": "Payload filters select the relevant documents",
+            "namespace": "docs"
+          }
+        }
+      ],
+      "at_utc": "2026-10-25T23:27:01.622Z"
+    },
+    {
+      "label": "Updated payload",
+      "value": [
+        {
+          "id": 1,
+          "payload": {
+            "content": "Qdrant stores searchable vectors",
+            "namespace": "docs",
+            "reviewed": true
+          }
+        }
+      ],
+      "at_utc": "2026-10-25T23:27:01.665Z"
+    },
+    {
+      "label": "After deleting point2",
+      "value": {
+        "count": 2
+      },
+      "at_utc": "2026-10-25T23:27:01.710Z"
+    },
+    {
+      "label": "Removed demo collection",
+      "value": {
+        "collection": "edgechains_demo_6e4ad21ef81744f0852c784bfa3f9db8"
+      },
+      "at_utc": "2026-10-25T23:27:01.717Z"
+    }
+  ],
+  "errors": [],
+  "blocked": []
+}

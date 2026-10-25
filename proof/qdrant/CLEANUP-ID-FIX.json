@@ -1,0 +1,8 @@
+{
+  "at_utc": "2026-10-25T23:31:22.4193728Z",
+  "expected_binary": "F:\\CreativeTools\\BountyAgent\\work\\EDGECHAINS-QDRANT-R1821\\runtime\\server\\qdrant.exe",
+  "pid": 28768,
+  "process_remaining": false,
+  "listener_remaining": false,
+  "scope": "Only task-owned Qdrant server stopped after corrected-source tests/demo. Browser and UI runtime closed by demo harness."
+}

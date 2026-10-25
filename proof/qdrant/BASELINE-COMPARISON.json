@@ -1,0 +1,102 @@
+{
+  "final": {
+    "passed": 68,
+    "failed": 3,
+    "pending": 0
+  },
+  "baseline": {
+    "passed": 0,
+    "failed": 3
+  },
+  "existing_files": [
+    {
+      "file": "src/ai/src/tests/openAiEndpoints.test.ts",
+      "present": true,
+      "same_failure": true
+    },
+    {
+      "file": "src/ai/src/tests/streaming.test.ts",
+      "present": true,
+      "same_failure": true
+    },
+    {
+      "file": "src/scraper/src/tests/autoPlaywrightPageScrapper.test.ts",
+      "present": true,
+      "same_failure": false
+    },
+    {
+      "file": "src/scraper/src/tests/cheerio.test.ts",
+      "present": true,
+      "same_failure": true
+    },
+    {
+      "file": "src/scraper/src/tests/playwright.test.ts",
+      "present": true,
+      "same_failure": true
+    },
+    {
+      "file": "src/db/src/tests/postgres-client/postgresClient.test.ts",
+      "present": true,
+      "same_failure": true
+    },
+    {
+      "file": "src/arakooserver/src/tests/hono/hono.test.ts",
+      "present": true,
+      "same_failure": true
+    },
+    {
+      "file": "src/document-loader/src/tests/pdf-loader/pdfLoader.test.ts",
+      "present": true,
+      "same_failure": true
+    },
+    {
+      "file": "src/splitter/src/tests/splitter/splitter.test.ts",
+      "present": true,
+      "same_failure": true
+    },
+    {
+      "file": "src/vector-db/src/tests/supabase/deleteById.test.ts",
+      "present": true,
+      "same_failure": true
+    },
+    {
+      "file": "src/vector-db/src/tests/supabase/getData.test.ts",
+      "present": true,
+      "same_failure": true
+    },
+    {
+      "file": "src/vector-db/src/tests/supabase/getDataById.test.ts",
+      "present": true,
+      "same_failure": true
+    },
+    {
+      "file": "src/vector-db/src/tests/supabase/getDataFromQuery.test.ts",
+      "present": true,
+      "same_failure": true
+    },
+    {
+      "file": "src/vector-db/src/tests/supabase/insertVectorData.test.ts",
+      "present": true,
+      "same_failure": true
+    },
+    {
+      "file": "src/vector-db/src/tests/supabase/updateById.test.ts",
+      "present": true,
+      "same_failure": true
+    }
+  ],
+  "new_files": [
+    {
+      "name": "src/vector-db/src/tests/qdrant/QdrantClient.integration.test.ts",
+      "status": "passed",
+      "tests": 13,
+      "failures": 0
+    },
+    {
+      "name": "src/vector-db/src/tests/qdrant/QdrantClient.test.ts",
+      "status": "passed",
+      "tests": 55,
+      "failures": 0
+    }
+  ]
+}

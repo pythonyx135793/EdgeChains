@@ -1,0 +1,26 @@
+{
+  "node": "v24.19.0",
+  "credential_environment": "allowlist only; no provider/account keys inherited",
+  "results": [
+    {
+      "name": "build-id-fix",
+      "exit": 0,
+      "seconds": 2.638
+    },
+    {
+      "name": "test-types-id-fix",
+      "exit": 0,
+      "seconds": 1.536
+    },
+    {
+      "name": "format-id-fix",
+      "exit": 0,
+      "seconds": 0.573
+    },
+    {
+      "name": "full-tests-id-fix",
+      "exit": 1,
+      "seconds": 27.706
+    }
+  ]
+}
